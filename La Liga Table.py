@@ -41,8 +41,8 @@ def stats(league, num, index):
     print(stats_table)
     print()
 
-
-user_input = input('Enter t5 league you wish to see standings of (First letters must be cap and a "-" between spaces): ')
+print('Enter t5 league you wish to see standings of (First letters must be cap and a "-" between spaces)')
+user_input = input('Choose between La Liga, Premier League, Serie A, Bundesliga, and Ligue 1: ')
 
 if user_input == 'La-Liga':
     number = laliga
